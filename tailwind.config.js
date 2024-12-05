@@ -10,8 +10,6 @@ module.exports = {
 			primary: "#CC2D4A",
 			secondary: "#8FA206",
 			tertiary: "#61AEC9",
-      cuarter: '#600060',
-      quintuple: '#007000'
 		},
 		extend: {
 			sanFrancisco: "url('../img/sanFrancisco.jpg')",
@@ -29,6 +27,7 @@ module.exports = {
 			chicago: "url('../img/chicago.jpg')",
 			europe: "url('../img/europe.jpg')",
 			iceland: "url('../img/iceland.jpg')",
+		
 		},
 	},
 	plugins: [
