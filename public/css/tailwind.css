@@ -554,36 +554,32 @@ video {
   display: none;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .flex {
   display: flex;
 }
 
-.h-16 {
-  height: 4rem;
+.h-3\/4 {
+  height: 75%;
 }
 
-.h-64 {
-  height: 16rem;
+.h-full {
+  height: 100%;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
-.w-16 {
-  width: 4rem;
+.h-screen {
+  height: 100vh;
 }
 
 .w-32 {
   width: 8rem;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
-.w-auto {
-  width: auto;
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -594,29 +590,62 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+.space-y-96 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  margin-top: calc(24rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(24rem * var(--tw-space-y-reverse));
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(204 45 74 / var(--tw-bg-opacity, 1));
+.rounded-full {
+  border-radius: 9999px;
 }
 
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(143 162 6 / var(--tw-bg-opacity, 1));
+.border-tertiary {
+  --tw-border-opacity: 1;
+  border-color: rgb(97 174 201 / var(--tw-border-opacity, 1));
 }
 
-.bg-tertiary {
+.bg-quartery {
   --tw-bg-opacity: 1;
-  background-color: rgb(97 174 201 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(204 45 74 / var(--tw-text-opacity, 1));
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 
